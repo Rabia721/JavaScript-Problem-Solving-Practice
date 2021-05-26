@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(95, 158, 160);
+    flex-direction: column;
+}
+button{
+    padding: 10px 3em;
+    font-size: 2em;
+    font-family: sans-serif;
+    background-color: aquamarine;
+    border:none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px black;
+    cursor: pointer;
+    transition:all 0.5s;
+    margin-bottom:1em;  
+}
+button:focus{
+ 
+    outline: none;
+}
+button:hover{
+    background-color: rgb(226, 223, 39);
+    color: rgb(38, 38, 44);
+}
+button:active{
+    box-shadow: no
+}
+button:active{
+    box-shadow:none;
+    color: chocolate;
+}
