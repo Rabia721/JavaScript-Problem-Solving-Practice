@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators - Switch Case</title>
+
+    <script>
+        var grade = 90;
+
+        switch (true) {
+            case grade > 85:
+                console.log("A Grade");
+                break;
+
+            case grade <= 85 && grade > 80:
+                console.log("A- Grade");
+                break;
+
+            case grade <= 80 && grade > 70:
+                console.log("B Grade");
+                break;
+
+            case grade <= 70 && grade > 60:
+                console.log("C Grade");
+                break;
+
+            case grade <= 60 && grade > 40:
+                console.log("D Grade");
+                break;
+
+            case grade <= 40 && grade > 35:
+                console.log("E Grade");
+                break;
+
+            case grade <= 35:
+                console.log("Candidate Failed");
+                break;
+
+            default:
+                console.log("Invalid Number")
+                break;
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

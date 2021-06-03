@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators - Logical Operators</title>
+
+    <script>
+        var a = true;
+        var b = true;
+
+        // True && True  - (true)
+        if (a == true && b == true) {
+            console.log(true);
+        } else {
+            console.log(false);
+        }
+
+
+        // False && True  - (false)
+        if (a == false && b == true) {
+            console.log(true);
+        } else {
+            console.log(false);
+        }
+
+        // False && False  - (false)
+        if (a == false && b == false) {
+            console.log(true);
+        } else {
+            console.log(false);
+        }
+
+        // False || True  - (true)
+
+        if (a == false || b == true) {
+            console.log(true);
+        } else {
+            console.log(false);
+        }
+
+        // 5 > 4 && 2 < 5  - (true)
+
+        if (5 > 4 && 2 < 5) {
+            console.log(true);
+        } else {
+            console.log(false);
+        }
+
+        // 2 == 9 || 2 == 2  - (true)
+
+        if (2 == 9 || 2 == 2) {
+            console.log(true);
+        } else {
+            console.log(false);
+        }
+
+        // !(!(4 > 2)) -  (false)
+
+        if (!(4 > 2)) {
+            console.log(true);
+        } else {
+            console.log(false);
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
