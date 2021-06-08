@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects - Map Method</title>
+
+    <script>
+        function first() {
+            let agesArray = [12, 45, 56, 4];
+
+            agesArray.map((age, index) => console.log(`The ${index} is ${age}`));
+
+            // multiplied by 10
+
+            var result = agesArray.map(ageA => ageA * 10);
+            console.log(result);
+
+        }
+        first();
+
+        function second() {
+            let usersData = [{
+                    name: "Saeed",
+                    lastName: "Ahmad",
+                    school: "UoT",
+                    profession: "engineer",
+                },
+                {
+
+                    name: "Ali",
+                    lastName: "Khan",
+                    school: "TUM",
+                    profession: "researcher",
+                }
+            ];
+
+            var res = usersData.map(usrD => usrD);
+            console.log(res);
+        }
+
+        second();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
